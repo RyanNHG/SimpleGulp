@@ -1,5 +1,12 @@
 var $ = require('jquery');
+var Router = require('./router');
 
 $(document).ready(function(){
-    console.log('Woohoo!');
+    
+    var router = new Router();
+
+    $('#button').click(function(){
+      router.routeTo('/button');
+    });
+
 });
