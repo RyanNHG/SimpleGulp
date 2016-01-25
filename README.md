@@ -7,5 +7,5 @@ A boilerplate for starting a simple project with gulp.
 3. Run **`npm install -g gulp`** to globally install gulp.
 
 ### Dev Workflow
-1. Run **`gulp`** will automatically 'src' files into 'dist' folder.
+1. Run **`gulp`** to continuously build 'src' files as you code.
 2. Run **`python server.py`** to start a local server that supports routing.
